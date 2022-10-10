@@ -17,9 +17,17 @@ h1 {
 body {
   background: var(--background-color);
   color: white;
+  
 }
 .hero {
-  background: image();
+  padding-top: 10px ;
+  background: url(/images/bw-images/Light.jpeg);
+  position:relative;
+
+
+
+left: 0px;
+top: 0px;
   text-align: center;
 }
 .hero p {
@@ -51,5 +59,12 @@ body {
   font-family: var(--secondary-font-family);
   font-size: 14px;
   color: #272142;
-;
+}
+a{
+    color:white;
+    font-family: var(--secondary-font-family);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    text-decoration: none;
 }
