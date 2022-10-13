@@ -79,12 +79,12 @@ justify-content: center;
 height: 80px;
 }
 .camera-details{
-margin-top: 15px;
+margin: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 8px;
-width: 400px;
+width: 500px;
 height: 60px;
 background: #2D2727;
 border-radius: 4px;
@@ -97,14 +97,16 @@ font-size: 18px;
 }
 .contact{
 margin-top: 50px;
-display: flex;
+
 justify-content: center;
 align-items: center;
 }
 .header-img{
   
-  width: 750px
+  width: 750px;
+  padding-right: 30px;
 }
 .about-section{
   margin-top: 25px;
+  text-align: center;
 }
