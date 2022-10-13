@@ -1,6 +1,7 @@
 :root{
     --branding-color: white ;
     --background-color: black;
+    --accent-color: #F65282;
     --default-font-family: "Roboto", sans-serif;
     --secondary-font-family: 'Montserrat', sans-serif;
 }
@@ -23,11 +24,8 @@ body {
   padding-top: 10px ;
   background: url(/images/bw-images/Light.jpeg);
   position:relative;
-
-
-
-left: 0px;
-top: 0px;
+  left: 0px;
+  top: 0px;
   text-align: center;
 }
 .hero p {
@@ -67,4 +65,46 @@ a{
     letter-spacing: 0.1em;
     font-size: 12px;
     text-decoration: none;
+}
+.about-section h2{
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  color: var(--accent-color);
+  padding-top: 25px;
+}
+.camera h2{
+justify-content: center;
+height: 80px;
+}
+.camera-details{
+margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px;
+width: 400px;
+height: 60px;
+background: #2D2727;
+border-radius: 4px;
+font-size: 18px;
+}
+.icon{
+  padding-right: 10px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.contact{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.header-img{
+  
+  width: 750px
+}
+.about-section{
+  margin-top: 25px;
 }
