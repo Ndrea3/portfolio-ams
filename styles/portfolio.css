@@ -1,11 +1,10 @@
-:root{
-    --branding-color: white ;
-    --background-color: black;
-    --accent-color: #F65282;
-    --default-font-family: "Roboto", sans-serif;
-    --secondary-font-family: 'Montserrat', sans-serif;
+:root {
+  --branding-color: white;
+  --background-color: black;
+  --accent-color: #f65282;
+  --default-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Montserrat", sans-serif;
 }
-
 
 h1 {
   font-family: var(--default-font-family);
@@ -18,12 +17,11 @@ h1 {
 body {
   background: var(--background-color);
   color: white;
-  
 }
 .hero {
-  padding-top: 10px ;
+  padding-top: 10px;
   background: url(/images/bw-images/Light.jpeg);
-  position:relative;
+  position: relative;
   left: 0px;
   top: 0px;
   text-align: center;
@@ -58,15 +56,19 @@ body {
   font-size: 14px;
   color: #272142;
 }
-a{
-    color:white;
-    font-family: var(--secondary-font-family);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 12px;
-    text-decoration: none;
+.hero-link{
+  color: var(--accent-color);
+  font-size: 16px;
 }
-.about-section h2{
+a {
+  color: white;
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  text-decoration: none;
+}
+.about-section h2 {
   font-family: var(--secondary-font-family);
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -74,39 +76,50 @@ a{
   color: var(--accent-color);
   padding-top: 25px;
 }
-.camera h2{
-justify-content: center;
-height: 80px;
+.camera h2 {
+  justify-content: center;
+  height: 80px;
 }
-.camera-details{
-margin: 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 8px;
-width: 500px;
-height: 60px;
-background: #2D2727;
-border-radius: 4px;
-font-size: 18px;
+.camera-details {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 500px;
+  height: 60px;
+  background: #2d2727;
+  border-radius: 4px;
+  font-size: 18px;
 }
-.icon{
+.icon {
   padding-right: 10px;
   font-size: 18px;
   margin-bottom: 5px;
 }
-.contact{
-margin-top: 50px;
-
-justify-content: center;
-align-items: center;
+.contact {
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
 }
-.header-img{
-  
-  width: 750px;
+.header-img {
+  width: 600px;
   padding-right: 30px;
 }
-.about-section{
+.about-section {
   margin-top: 25px;
   text-align: center;
+}
+
+.gallery-section{
+  margin-top: 25px;
+  text-align: center;
+}
+.gallery-section h2{
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  color: var(--accent-color);
+  padding-top: 25px;
 }
