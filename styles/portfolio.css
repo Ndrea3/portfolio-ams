@@ -123,3 +123,22 @@ a {
   color: var(--accent-color);
   padding-top: 25px;
 }
+.contact-section{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.contact-section h1{
+  font-size:72px;
+}
+.contact-section h2{
+   color: var(--accent-color);
+   font-family: var(--secondary-font-family);
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   font-size: 14px;
+   padding-top: 50px;
+}
+.contact-section a{
+  font-size: 18px;
+}
