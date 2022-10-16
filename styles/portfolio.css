@@ -140,7 +140,7 @@ border-color: #ffffff;
 }
 .contact-section{
   text-align: center;
-  margin: 100px;
+  margin: 50px;
 }
 
 .contact-section h1{
@@ -156,6 +156,10 @@ border-color: #ffffff;
 }
 .contact-section a{
   font-size: 18px;
+}
+
+  .long-link{  
+  word-break:break-all;
 }
 .contact-section a:hover{
 color: var(--accent-color);
@@ -200,6 +204,7 @@ footer{
 background: #272044;
 text-align: center;
 height: 80px;
+margin-top: 75px;
 }
 footer img{
   height:50px;
