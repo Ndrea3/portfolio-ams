@@ -105,7 +105,7 @@ a {
 }
 .icon:hover{
 color: var(--accent-color);
-transition: all 250ms ease-in-out;
+transition: all 200ms ease-in-out;
 }
 .contact {
   margin-top: 100px;
@@ -203,7 +203,7 @@ footer a{
 footer{
 background: #272044;
 text-align: center;
-height: 80px;
+height: 90px;
 margin-top: 75px;
 }
 footer img{
@@ -213,3 +213,8 @@ footer img{
 footer a:hover{
 color: var(--accent-color);
 transition: all 250ms ease-in-out;}
+
+.github-link{
+  padding: 4px;
+ text-decoration: underline;
+}
