@@ -140,7 +140,7 @@ border-color: #ffffff;
 }
 .contact-section{
   text-align: center;
-  margin-top: 150px;
+  margin: 100px;
 }
 
 .contact-section h1{
@@ -152,7 +152,7 @@ border-color: #ffffff;
    text-transform: uppercase;
    letter-spacing: 0.1em;
    font-size: 14px;
-   padding-top: 50px;
+   padding-top: 40px;
 }
 .contact-section a{
   font-size: 18px;
@@ -163,31 +163,48 @@ transition: all 250ms ease-in-out;
 }
 .logo{
   max-width:85px;
-  border-radius: 25px;
   height:50px;
  
+}
+nav{
+  background: #272044;
+  height: 80px;
+  font-family: var(--default-font-family);
+  padding-top: 15px;
 }
 nav li{
   display:inline;
   list-style-type: none;
-  margin-left: 15px;
-  line-height: 42px;
+  line-height: 45px;
+  padding: 10px ;
+  font-size: 14px;
+   
 }
-
-nav{
-   height: 75px;
-   padding: 12px 0;
-   font-family: var(--default-font-family);
-
-
-}
-
 nav a:hover{
 color: var(--accent-color);
 transition: all 250ms ease-in-out;
 }
-
-
 nav li.active a{
   color: var(--accent-color);
 }
+footer a{
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  line-height: 100px;
+  display:inline;
+  
+}
+
+footer{
+background: #272044;
+text-align: center;
+height: 80px;
+}
+footer img{
+  height:50px;
+
+}
+footer a:hover{
+color: var(--accent-color);
+transition: all 250ms ease-in-out;}
